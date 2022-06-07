@@ -6,7 +6,7 @@ const { restart } = require('nodemon');
 const { response } = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient
-const connectionString = 'mongodb+srv://msofi72:W2cgehrYO3JwK5lr@cluster0.yf2w0.mongodb.net/?retryWrites=true&w=majority'
+const connectionString = ""
 const PORT = 3000
 
 
