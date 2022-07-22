@@ -6,10 +6,7 @@ const app = express();
 const MongoClient = require('mongodb').MongoClient
 <<<<<<< HEAD
 require('dotenv').config()
-const connectionString = 'mongodb+srv://msofi72:W2cgehrYO3JwK5lr@cluster0.yf2w0.mongodb.net/?retryWrites=true&w=majority'
-=======
-const connectionString = ""
->>>>>>> 9186727c7ce7a8730d69b9a016bb99c890d598bf
+const connectionString = 
 const PORT = 3000
 
 
