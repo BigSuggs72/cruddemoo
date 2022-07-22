@@ -2,10 +2,9 @@
 console.log('May Node be with you')
 const express = require('express');
 const bodyParser = require('body-parser');
-const { restart } = require('nodemon');
-const { response } = require('express');
 const app = express();
 const MongoClient = require('mongodb').MongoClient
+require('dotenv').config()
 const connectionString = 'mongodb+srv://msofi72:W2cgehrYO3JwK5lr@cluster0.yf2w0.mongodb.net/?retryWrites=true&w=majority'
 const PORT = 3000
 
